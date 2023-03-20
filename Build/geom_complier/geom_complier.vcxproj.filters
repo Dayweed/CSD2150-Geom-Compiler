@@ -27,9 +27,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="geom_complier.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Dependencies\meshoptimizer\src\allocator.cpp">
       <Filter>meshoptimizer</Filter>
     </ClCompile>
@@ -83,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Dependencies\xcore\src\xcore_profiler_2.cpp">
       <Filter>xcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\geom_compiler.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -244,6 +244,9 @@
     </ClInclude>
     <ClInclude Include="..\..\Dependencies\xcore\src\Settings\xcore_user_settings.h">
       <Filter>xcore settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\geom_compiler.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
