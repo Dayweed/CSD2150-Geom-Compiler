@@ -51,15 +51,21 @@ struct Pos
 	xcore::vector3 pos;
 };
 
+struct Extras
+{
+
+};
+
 struct  Geom
 {
 	Mesh* pMesh = nullptr;
 	LODS* pLOD = nullptr;
 	SubMeshes* pSubMesh = nullptr;
 	Pos* pPos = nullptr;
+	Extras* pExtras = nullptr;
 	Indices* pIndices = nullptr;
 
-	uint32_t nMesh = 0, nLOD = 0, nSubMesh = 0, nPos = 0, nIndices = 0;
+	uint32_t nMesh = 0, nLOD = 0, nSubMesh = 0, nPos = 0, nExtras = 0, nIndices = 0;
 
 	//To allocate memory for the pointers after setting the numbers
 	void Allocate()
@@ -68,6 +74,7 @@ struct  Geom
 		pLOD = new LODS[nLOD];
 		pSubMesh = new SubMeshes[nSubMesh];
 		pPos = new Pos[nPos];
+		pExtras = new Extras[nExtras];
 		pIndices = new Indices[nIndices];
 	}
 	//Deallocate the memory
@@ -77,6 +84,7 @@ struct  Geom
 		if (pLOD) delete[] pLOD;
 		if (pSubMesh) delete[] pSubMesh;
 		if (pPos) delete[] pPos;
+		if (pExtras) delete[] pExtras;
 		if (pIndices) delete[] pIndices;
 	}
 };
