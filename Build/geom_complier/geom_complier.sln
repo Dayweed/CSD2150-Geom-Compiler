@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "geom_complier", "geom_complier.vcxproj", "{867FCC33-8968-43A4-860F-272EF2554BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{867FCC33-8968-43A4-860F-272EF2554BCC}.Debug|x64.ActiveCfg = Debug|x64
+		{867FCC33-8968-43A4-860F-272EF2554BCC}.Debug|x64.Build.0 = Debug|x64
+		{867FCC33-8968-43A4-860F-272EF2554BCC}.Debug|x86.ActiveCfg = Debug|Win32
+		{867FCC33-8968-43A4-860F-272EF2554BCC}.Debug|x86.Build.0 = Debug|Win32
+		{867FCC33-8968-43A4-860F-272EF2554BCC}.Release|x64.ActiveCfg = Release|x64
+		{867FCC33-8968-43A4-860F-272EF2554BCC}.Release|x64.Build.0 = Release|x64
+		{867FCC33-8968-43A4-860F-272EF2554BCC}.Release|x86.ActiveCfg = Release|Win32
+		{867FCC33-8968-43A4-860F-272EF2554BCC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {367E9B95-4CE6-4639-B8F1-A01205BBE04E}
+	EndGlobalSection
+EndGlobal

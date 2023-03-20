@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="xcore">
+      <UniqueIdentifier>{88efaef3-4e8c-4376-94b4-769c1d8642b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meshoptimizer">
+      <UniqueIdentifier>{26921605-d9fb-4341-aa53-5f09f719ca2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson">
+      <UniqueIdentifier>{2d1c6605-0ae3-4475-8175-99d0fbcfb7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xcore settings">
+      <UniqueIdentifier>{b5bc858f-102d-457a-b4e3-b621d5867850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="geom_complier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\allocator.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\clusterizer.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\indexcodec.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\indexgenerator.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\overdrawanalyzer.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\overdrawoptimizer.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\simplifier.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\spatialorder.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\stripifier.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\vcacheanalyzer.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\vcacheoptimizer.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\vertexcodec.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\vertexfilter.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\vfetchanalyzer.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\meshoptimizer\src\vfetchoptimizer.cpp">
+      <Filter>meshoptimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\xcore\src\xcore.cpp">
+      <Filter>xcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\xcore\src\xcore_profiler_1.cpp">
+      <Filter>xcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dependencies\xcore\src\xcore_profiler_2.cpp">
+      <Filter>xcore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Dependencies\meshoptimizer\src\meshoptimizer.h">
+      <Filter>meshoptimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_arglist.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_array.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_assert.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_bitmap.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_bits.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_cmdline.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_color.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_compression.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_context.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_crc.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_endian.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_error.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_event.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_file.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_function.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_global.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_guid.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_lock.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_lockless_pool.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_lockless_queues.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_log.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math_matrix4.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math_quaternion.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math_radian3.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math_shapes.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math_transform.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math_vector2.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math_vector3.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_math_vector4.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_memory.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_profiler.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_ptr.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_random.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_rtti.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_scheduler_channel.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_scheduler_job.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_scheduler_system.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_scheduler_trigger.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_serializer.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_span.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_string.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_system_reg.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_target.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_textfile.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_types.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_unique_span.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_units.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\xcore_vector.h">
+      <Filter>xcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\Settings\PropertyConfig.h">
+      <Filter>xcore settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dependencies\xcore\src\Settings\xcore_user_settings.h">
+      <Filter>xcore settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
